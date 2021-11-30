@@ -1,0 +1,803 @@
+*{
+    margin: 0px;
+
+    box-sizing: border-box;
+}
+
+    /*MOBILE*/
+
+/*---------HEADER--------*/
+
+body{
+    margin: 0px;
+    font-family: Montserrat, sans-serif;
+    /*justify-content: center;
+    align-items: center;*/
+    background: rgb(26,10,45);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 7%, rgba(10,8,61,1) 57%);
+    color: white;
+}
+
+
+.barra1{
+    width: 100%;
+    height: 110px;
+    /*border: solid 1px red;*/
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(197, 191, 191);
+    
+    
+}
+
+
+.barra1 img{
+    display: none;
+   
+}
+.contenedor-logo{
+    width: 200px;
+    height: 109px;
+    bottom: 1px;
+
+}
+
+.burger-menu i{
+    position: absolute;
+    font-size: 25px;
+    border-radius: 4px;
+    right: 89%;
+    margin: auto;
+    padding: 10px;
+}
+/*carrito*/
+
+.barra1 .carrito i{
+    position: absolute;
+    font-size: 22px;
+    border-radius: 4px;
+    left: 89%;
+    
+    padding: 10px;
+    color:#FFF;
+}
+
+
+.barra1 .barra-busqueda{
+    display: flex;
+    align-items: center;
+
+}
+
+.barra1 .barra-busqueda .input{
+    height: 20px;
+    font-size: 13px;
+    border: solid 2px rgb(197, 191, 191);
+    padding: 6px;
+    border-radius: 9px;
+    text-align: center;
+    margin-right:4px ;
+}
+
+.barra1 .barra-busqueda{
+
+    
+    margin-bottom:69px;
+    margin-left:-72%;
+    
+}
+
+
+
+.barra1 .iconos{
+    display: none;
+}
+
+.iconos{
+    color: white;
+    
+}
+/*Sub menu2*/
+
+
+
+.barra2 nav ul{
+    display: none;
+}
+.iconos-barra2 i{
+    display: none;
+
+}
+
+
+
+/*------MAIN------*/
+
+
+
+
+main .imagen-gamer{
+    margin-top: 6px;
+    width: 100%;
+    height: 30vw;
+}
+
+
+body main .categorias-destacado{
+    width: 90%;
+    margin: auto;
+    
+}
+body main .categorias-destacado .destacado02{
+width: 100%;
+}
+body main .categorias-destacado .destacado02 img{
+    width:90%;
+   
+}
+body main .categorias-destacado .categorias02{
+   
+    width: 100%;
+    
+}
+
+body main .categorias-destacado .categorias02 img{
+    width: 100%;
+    height: 85px;
+    
+    
+    /* Hasta aca llega la seccion de destacado y categorias con imagenes*/
+}
+
+
+
+
+
+
+
+
+h3.titulo{
+    text-align: center;
+    font-weight: normal;
+    
+    font-size: 23px;
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+h3.titulo-ofertas{
+    text-align: center;
+    font-weight: normal;
+    
+    font-size: 23px;
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+h3.titulo-ofertas{
+    display: none;
+}
+
+
+
+/*Seccion de lo mas destacado con una imagen en mobile cuatro en tablet y pchp en desktop*/
+
+body main .que-estas-buscando{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    /*border: solid 1px green;*/
+
+
+}
+
+
+
+body main .que-estas-buscando h3{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-weight: normal;
+}
+
+
+body main .que-estas-buscando img{
+   /* width: 80%;
+    margin-left: 30px;
+    border: solid 1px red;*/
+    width: 100%;
+    border-bottom: solid 1px rgb(228, 227, 227);
+    padding: 10px;
+}
+
+body main .que-estas-buscando article{
+    /*margin: auto;
+    border: solid 1px red;
+    width: 85%;
+    margin-top: 10px;*/
+    border: rgb(228, 227, 227) solid 1px;
+    width: 80%;
+    padding: 5px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+body main  .que-estas-buscando .nombre-precio-mas{
+    padding: 10px;
+}
+
+body main .nombre-precio-mas .nombre{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+body main article .nombre-precio-mas .precio{
+    margin-bottom: 8px;
+    font-size: 19px;
+}
+
+body main article .nombre-precio-mas a{
+    
+    color: black;
+    text-decoration: none;
+    
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 2px;
+    
+}
+
+
+body main article .nombre-precio-mas .ver-mas{
+    text-align: center;
+}
+
+.ver-mas{
+
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(140,140,140,1) 100%);
+    border: 1px solid black;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 3px;
+    transition-property: background-color, font-size; 
+    transition-duration: 0.3s;
+}
+
+.ver-mas:hover{
+    background-color: #FFF;
+    font-size: 18px;
+    box-shadow: 1px 0px 10px #00ff7b8c;
+}
+
+
+
+
+/*Seccion de banners*/
+
+main .banners{
+    width: 95%;
+    
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: -85px;
+}
+main .banners img{
+    width: 100%;
+    margin-top: 1px;
+    height: 90px;
+}
+
+
+main .ofertas{
+    display: none;
+}
+
+
+/*----NEWSLETTER-----*/
+
+.suscribirse{
+    width: 100%;
+    padding: 10px;
+    margin-top: 140px;
+    margin-bottom: -80px;
+    
+}
+
+.suscribirse .enterate-novedades h3{
+    
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.suscribirse .enterate-novedades p{
+    display: none;
+}
+
+.suscribirse .correo-suscripcion{
+    padding: 2px;
+    width: 100%;
+    margin: auto;
+    
+    
+}
+
+.suscribirse .correo-suscripcion input{
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: none;
+   width: 50%;
+   margin-left: 5px;
+   margin-right: 20px;
+}
+
+.suscribirse .correo-suscripcion button{
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 6px;
+    color: rgb(67, 67, 67);
+    border: none;
+    background-color: #FFF;
+
+}
+
+
+
+
+
+
+
+
+
+/*------FOOTER---------*/
+footer{
+    margin-top: 20px;
+}
+footer .seccion1{
+    padding: 5px;
+    margin-top: 100px;
+    
+    margin-right: 5px;
+    width: 100%;
+    text-align: center;
+    /*background-color: rgb(228, 227, 227);*/
+    border-top: solid 1px rgb(228, 227, 227);
+}
+footer .seccion1 img{
+ 
+    display: none;
+   
+}
+
+footer .seccion1 .productos,.contacto,.redes{
+    margin-top: 30px;
+   
+    
+}
+footer .seccion1 .productos,.contacto{
+   margin-left: 12px;
+
+}
+footer .seccion1 h5{
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+footer .seccion1 p{
+    margin-bottom: 7px;
+    font-size: 15px;
+    text-align: justify;
+}
+footer .seccion1 .redes{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+footer .seccion2{
+    display: flex;
+    padding: 7px;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(228, 227, 227);
+
+}
+
+
+
+
+
+
+
+
+/*--FORMULARIO DE REGISTRO CSS--*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family:'Roboto' ,sans-serif;
+}
+
+
+
+/*--Contenedor de los registros--*/
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+
+/*--Contenedor del form--*/
+
+.login-container{
+    display: block;
+    width: 450px;
+    height: auto;
+    background:  #fff;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+
+}
+
+/*--Seccion Registro --*/
+
+
+.register, .login{
+    flex: 1;
+
+}
+
+.register{
+    padding: 40px;
+    position: relative;
+    /*
+    background-image: linear-gradient(to bottom right ,#8d53fd,#2757ff);
+    */
+    
+}
+
+.register h2{
+    color: #2e2d2d;
+    margin-bottom: 30px;
+    text-shadow: 0px 0px 0px #000000;
+}
+
+.register input{
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    border-top-style:none ;
+    border-left-style:none;
+    border-right-style:none;
+    border-bottom: 1px solid #a8a8a8;
+    color: #333;
+}
+.register input:active,
+.register input:focus{
+    outline: none;
+}
+
+.register .submit{
+    width: 100%;
+    padding: 10px;
+    background:linear-gradient(to right ,#72d129,#87f234,#faeb52) ;
+    color:#000000 ;
+    font-size: 16px;
+    box-shadow:2px 2px 7px 1px #3c3c3c;
+    text-shadow: 0px 1px 1px #000000;
+    cursor: pointer;
+}
+
+/*--FlechaCircular--*/
+.register::after{
+    content: '>';
+    position:absolute ;
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    right: -23px;
+    text-align: center;
+    font-size: 19px;
+    background:#87f234;
+    border-radius: 50%;
+    transform: translateY(-50%)rotate(90deg);
+    box-shadow:-1px 1px 3px 1px rgba(0, 0, 0, .2) ;
+    color: #000;
+    top: unset;
+    bottom: -25px;
+    left: 48%;
+}
+
+
+/*--Registro redes--*/
+
+.login{
+background-image: linear-gradient(to bottom right ,#faeb52,#87f234);
+padding: 40px;
+}
+
+.login h2{
+    color:#fff ;
+    text-shadow: black;
+    margin-bottom: 45px;
+}
+
+.login button i{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.login button{
+ width: 100%;
+ margin: 15px 0px;
+ padding: 10px;
+box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2) ;
+cursor: pointer;
+position: relative;
+}
+
+.login .gg{
+    background-color: rgb(216, 30, 30);
+    border-style: none;
+    color: #fff;
+}   
+
+
+
+.login .fb{
+    background: #3b5999;
+    border-style: none;
+    color: #fff;
+  }
+   
+  .login .tw{
+    background: #55acef;
+    border-style: none;
+    color: #fff;
+  }
+   
+  .login .ig{
+    background:linear-gradient(to bottom right ,#911191,#a7338a);
+    border-style: none;
+    color: #fff;
+  }
+   .iniciar-sesion{color :#000;
+    }
+
+
+  
+  /*--MEDIA 700--*/
+  
+  @media (min-width:700px){
+
+ 
+    /*--REGISTRO--*/
+
+   .login-container{
+    display: flex;
+    width: 650px;
+    height: auto;
+    background:  #fff;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+
+}
+.register::after{
+    display: block;
+    transform: translateX(-50%);
+    top: unset;
+    bottom: 50%;
+    left: 100%;
+    
+}
+   /*TABLET*/
+
+     /*------HEADER---------*/
+
+
+     .barra1 img{
+        display: block;
+        width: 85%;
+
+     }
+    .burger-menu{
+        display: none;
+    }
+    
+.barra1 .barra-busqueda{
+
+    margin-left: 0;
+    margin-top: 56px;
+    margin: auto;
+}
+
+    .barra1 .barra-busqueda .input{
+        
+        margin-right: 5px;
+        width: 25vw;
+        height: 30px;
+        font-size: 12px;
+        border: solid 2px#87f234;
+        padding: 6px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .barra1 .iconos{
+        display: block;
+        margin-top: 15px;
+        width: 16%;
+        
+        
+    }
+
+    .barra1 .iconos i{
+        font-size: 25px;
+        margin-right: 5%;
+        margin-top: 28px;
+        color:#87f234;
+        
+
+    }
+    .barra1 .carrito i{
+        display: none;
+    }
+
+
+   .barra2 i{
+
+        font-size: 15px;
+        color:#87f234;
+    }
+
+    
+    .barra2 nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+       /*border: solid 1px red;*/
+        padding: 10px;
+        background:#000;
+    }
+    .barra2 nav ul li {
+        
+        list-style: none;
+    }
+    .barra2 nav ul li a{
+        text-decoration:none;
+        color: #FFF;
+    }
+    .iconos-barra2 i{
+        border: 1px solid wheat;
+        display: block;
+
+    }
+
+    /*------FOOTER---------*/
+footer{
+    margin-top: 100px;
+}
+footer .seccion1 img {
+    display: inline-block;
+    margin-top: 21px;
+    width: 17vw;
+    height: 19vh;
+}
+footer .seccion1{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+    
+}
+
+
+footer .seccion2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+   
+}
+    
+
+/*--MEDIA 1000--*/
+
+
+@media (min-width:1000px){
+
+    /*--HEADER--------*/
+ 
+
+   .barra1.iconos{
+
+    margin-right: -50px
+    }
+
+    .barra1 .iconos i{
+   margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+    /*Newsletter*/
+
+
+    .suscribirse{
+
+        width: 80%;
+        display: flex;
+        
+        justify-content: space-between;
+        margin-left: 136px;
+        border-radius: 5px;
+       
+    }
+
+    .suscribirse .enterate-novedades{
+        width: 40%;
+        
+        
+    }
+    .suscribirse .correo-suscripcion{
+        width: 40%;
+        
+        padding: 5px;
+    }
+    .suscribirse .enterate-novedades h3{
+        text-align: justify;
+    }
+    .suscribirse .enterate-novedades p{
+        display: block;
+        font-size: 15px;
+        
+    }
+
+    .suscribirse .correo-suscripcion button{
+        transition: all 0.5s;
+        
+    
+    }
+    
+    .suscribirse .correo-suscripcion button:hover{
+        background-color:  rgb(167, 165, 165);
+        /* rgba(140,140,140,1) 100%);*/
+    
+    
+    }
+
+
+
+
+
+
+    /*------FOOTER----------*/
+
+    footer .seccion1 img{
+        display: inline-block;
+        margin-top: 21px;
+        width: 17vw;
+        height: 19vh;
+    }
+    
+    
+    }
+  
+
+   
+    

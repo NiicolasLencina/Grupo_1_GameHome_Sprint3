@@ -1,0 +1,24 @@
+{
+  "name": "grupo_1_gamehome",
+  "version": "1.0.0",
+  "description": "*Productos gamer, periféricos.*",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiicolasLencina/Grupo_1_GameHome.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NiicolasLencina/Grupo_1_GameHome/issues"
+  },
+  "homepage": "https://github.com/NiicolasLencina/Grupo_1_GameHome#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}

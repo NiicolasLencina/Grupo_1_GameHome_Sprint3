@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/register.css">
+    <title>Registrate</title>
+    <link rel="icon" href="/images/android-chrome-512x512.ico">
+</head>
+<body>
+    <header>
+
+        <section class="barra1">
+
+            <div class="contenedor-logo">
+                <a href="/"><img src="/images/logo-174px.png" alt="logo que dice: Game Home"></a>
+
+             </div>
+            <div class="burger-menu">
+
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            
+            <!--Search-->
+
+            <div class="barra-busqueda" action="#" method="GET">
+
+
+
+                
+              <!--<div class="input"><p></p></div>-->  
+
+                <input type="text" placeholder="buscar" required class="input">
+
+
+                <div class="submit"><i class="fas fa-search"></i>
+                </div>
+            </div>
+
+            <div class="iconos">
+
+               
+              <a href="/registro"><i class="fas fa-sign-in-alt"></i></a>
+              <a href="/login"><i class="far fa-user"></i></a> 
+              <a href="/carritoDeCompras"><i class="fas fa-shopping-cart"></i></a> 
+
+            </div>
+
+            <!--Para mobile search and shopping cart-->
+
+            <div class="carrito">
+ 
+              <a href="/carritoDeCompras"><i class="fas fa-shopping-cart"></i></a>
+
+            </div>
+        </section>      
+
+
+
+        <section class="barra2">
+
+            <nav>
+                
+                    <ul>
+                        <li><a href="#">PC/Notebook</a></li>
+                        <li><a href="#">Armá tu pc</a></li>
+                        <li><a href="#">Audio & Video</a></li>
+                        <li><a href="#">Silla Gamer</a></li>
+                        <a href="/"><i class="fas fa-bell"></i></a>
+                        <a href="/"><i class="fas fa-heart"></i></a>
+                    </ul>
+                    <!--<div class="iconos-barra2">
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-heart"></i>
+                    </div>-->
+                
+            </nav>
+
+        </section>
+
+
+    </header>
+
+   <main>
+
+   <!--FORMULARIO DE REGISTRO-->
+    <div class="container">
+        <div class="login-container">
+            
+            <div class="register">
+                <h2>Registrarse</h2>
+                <form action="POST" id="form">
+                    <input type="text" name="nombre" class="nombre" placeholder="Nombre de usuario" required>
+
+                    <input type="text" name="correo" class="correo" placeholder="Correo electrónico" required>
+
+                    <input type="password" name="contraseña" class="contraseña" placeholder="Contraseña" required>
+
+                    <input type="password" name="contraseña" class="repass" placeholder="Confirmar contraseña" required>
+
+
+                    <input type="submit" class="submit" value="REGISTRARSE">
+
+                    <div class="iniciar-sesion"><p class="link">¿Ya tienes cuenta? <a href="/login">Iniciar sesión</a></p></div>
+
+                </form>    
+            </div>
+            <div class="login">
+                <h2>Registro con redes</h2>
+                <div class="login-items" >
+
+                    <button class="gg"><i class="fab fa-google"></i> Registrarse con Google</button>
+
+                    <button class="fb"><i class="fab fa-facebook-f"></i> Registrarse con Facebook</button>
+
+                    <button class="tw"><i class="fab fa-twitter"></i> Registrarse con Twitter</button>
+
+                    <button class="ig"><i class="fas fa-camera"></i> Registrarse con Instagram</button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+   </main>
+
+   <footer>
+
+
+    <section class="seccion1">
+
+        <img src="/images/logo-174px.png" alt="logo">
+
+        <div class="productos">
+
+    <h5>Productos</h5>
+       <p>Computadoras</p>
+       <p>Auriculares</p>
+       <p>Sillas</p>
+       <p>Teclados</p>
+
+    </div>
+
+
+    <div class="contacto">
+
+        <h5>Contacto</h5>
+        <p>gamehome@gmail.com</p>
+        <p>113344556</p>
+
+    </div>
+
+    <div class="contacto">
+
+        <h5>Mas información</h5>
+        <p>Nosotros</p>
+        <p>Preguntas frecuentes</p>
+        <p>Ayuda</p>
+        
+
+    </div>
+
+
+
+
+        <div class="redes">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitch"></i>
+        </div>
+
+
+
+
+    </section>
+
+    <section class="seccion2">
+        <p>Copyright © 2021 - GameHome </p>
+        <p>Todos los derechos reservados</p>
+    </section>
+
+
+   </footer>
+
+
+</body>
+</html>
