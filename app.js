@@ -5,6 +5,8 @@ const port = 3030;
 
 
 //Require de las rutas
+const indexRutas= require('./src/routes/indexRutas')
+const productCartRutas= require('./src/routes/productCartRutas')
 const productDetailRutas = require('./src/routes/productDetailRutas')
 
 
@@ -14,24 +16,18 @@ app.use(express.static('./public'))
 app.listen(process.env.PORT ||port, () => console.log(`Servidor Funcionando! ${port}!`))
 
 //Ruta index
-app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/views/index.html')
-})
+app.use('/', indexRutas)
+
+
 //Ruta login
-
-
 app.get('/login', (req, res) => {
   res.sendFile(__dirname + '/views/login.html')
 })
 
 
 
-
-
 //Ruta product cart
-  app.get('/carritoDeCompras', (req, res) => {
-    res.sendFile(__dirname + '/views/productCart.html')
-  })
+  app.use('/carritoDeCompras', productCartRutas)
 
 
   
