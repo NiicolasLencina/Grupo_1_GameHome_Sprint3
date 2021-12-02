@@ -4,11 +4,18 @@ const app = express();
 const port = 3030;
 
 
+app.set('view engine','ejs')
+
+
+
 //Require de las rutas
 const indexRutas= require('./src/routes/indexRutas')
 const productCartRutas= require('./src/routes/productCartRutas')
 const productDetailRutas = require('./src/routes/productDetailRutas')
 const loginRutas= require('./src/routes/loginRutas')
+
+
+
 
 
 //Ruta elementos estaticos
