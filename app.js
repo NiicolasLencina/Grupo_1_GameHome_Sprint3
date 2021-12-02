@@ -8,6 +8,7 @@ const port = 3030;
 const indexRutas= require('./src/routes/indexRutas')
 const productCartRutas= require('./src/routes/productCartRutas')
 const productDetailRutas = require('./src/routes/productDetailRutas')
+const loginRutas= require('./src/routes/loginRutas')
 
 
 //Ruta elementos estaticos
@@ -20,10 +21,7 @@ app.use('/', indexRutas)
 
 
 //Ruta login
-app.get('/login', (req, res) => {
-  res.sendFile(__dirname + '/views/login.html')
-})
-
+app.use('/login',loginRutas)
 
 
 //Ruta product cart
