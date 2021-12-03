@@ -15,6 +15,7 @@ const indexRutas= require('./src/routes/indexRutas')
 const productCartRutas= require('./src/routes/productCartRutas')
 const productDetailRutas = require('./src/routes/productDetailRutas')
 const loginRutas= require('./src/routes/loginRutas')
+const crearProductoRutas = require('./src/routes/createProductRutas')
 
 
 
@@ -50,3 +51,8 @@ app.get('/registro', (req, res) => {
     res.sendFile(__dirname + '/views/register.html')
   })
 
+
+
+  // Ruta creacion de producto
+
+app.use('/crearProducto',crearProductoRutas)
