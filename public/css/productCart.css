@@ -60,7 +60,9 @@ body{
 .barra1 .barra-busqueda{
     display: flex;
     align-items: center;
-
+    margin-bottom:69px;
+    margin-right:27%;
+    margin-top: 3px;
 }
 
 .barra1 .barra-busqueda .input{
@@ -73,15 +75,6 @@ body{
     margin-right:4px ;
     
 }
-
-.barra1 .barra-busqueda{
-
-    
-    margin-bottom:69px;
-    margin-left:-72%;
-    
-}
-
 
 
 .barra1 .iconos{
