@@ -4,9 +4,11 @@ const app = express();
 const port = 3030;
 
 
-app.set('view engine','ejs')
-
-
+// vistas y public static
+app.use(express.static('public'));
+app.set('view engine', 'ejs');
+// view engine setup
+app.set('views', path.resolve(__dirname, './src/views'));
 
 //Require de las rutas
 const indexRutas= require('./src/routes/indexRutas')
@@ -18,17 +20,18 @@ const loginRutas= require('./src/routes/loginRutas')
 
 
 
-//Ruta elementos estaticos
-app.use(express.static('./public'))
-
 app.listen(process.env.PORT ||port, () => console.log(`Servidor Funcionando! ${port}!`))
+
+
 
 //Ruta index
 app.use('/', indexRutas)
 
 
+
 //Ruta login
 app.use('/login',loginRutas)
+
 
 
 //Ruta product cart
@@ -38,6 +41,8 @@ app.use('/login',loginRutas)
   
 //Ruta product detail
 app.use('/detalleDeProducto',productDetailRutas)
+
+
 
 //Ruta register
 
