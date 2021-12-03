@@ -104,113 +104,8 @@ body{
 }
 
 
-/*------MAIN---------*/
-
-.producto-principal{
-    width: 90%;
-    margin: auto;
-}
-.producto-principal img{
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.producto-principal .datos-producto h2{
-    font-size: 30px;
-    margin-top: 16px;
-    margin-bottom: 10px;
-    font-weight: normal;
-    padding: 10px;
-}
-.producto-principal .datos-producto .breve-descripcion{
-    text-align: left;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 10px;
-    border-bottom: 1px gray solid;
-}
-
-.producto-principal .datos-producto .precio-del-producto{
-    padding: 10px;
-    font-size: 25px;
-    text-align: left;
-    border-bottom: 1px gray solid;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
 
 
-.producto-principal .datos-producto .iconos-texto{
-    padding: 10px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-bottom: 1px gray solid;
-    color: rgb(28, 170, 28);
-}
-
-.producto-principal .datos-producto i{
-    margin-right: 7px;
-    
-}
-
-.producto-principal .datos-producto p{
-    margin-bottom: 15px;
-}
-
-.producto-principal input{
-    padding: 10px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 7px;
-    width: 50%;
-    font-size: 16px;
-   /* border:none;*/
-}
-
-
-
-
-
-
-
-main .caracteristicas{
-    padding: 10px;
-    margin-top: 25px;
-    margin-bottom: 15px;
-}
-main .caracteristicas h3{
-    padding: 10px;
-    font-weight: normal;
-    margin-bottom: 15px;
-    text-align: center;
-    font-size: 25px;
-}
-main .caracteristicas ul{
-    list-style: none;
-    font-size: 20px;
-}
-main .caracteristicas .color1{
-    padding: 5px;
-    background-color: gray;
-    width: 90%;
-    color: white;
-}
-main .caracteristicas .color2{
-    padding: 5px;
-    width: 90%;
-}
-
-
-
-
-main .ofertas{
-    display: none;
-}
-.ofertas-titulo{
-  display: none;
-
-
-}
 
 
 /*----NEWSLETTER-----*/
@@ -325,138 +220,180 @@ footer .seccion2{
 
 
 
+
+
+
+
 @media (min-width:700px){
- /*TABLET*/
-
-     /*------HEADER---------*/
-
-
-     
-     .barra1 img{
-        display: block;
-        width: 85%;
-     }
-    .burger-menu{
-        display: none;
-    }
-    
-.barra1 .barra-busqueda{
-
-    margin-left: 0;
-    margin-top: 56px;
-    margin: auto;
-}
-
-    .barra1 .barra-busqueda .input{
+    /*TABLET*/
+   
+        /*------HEADER---------*/
+   
+   
         
-        margin-right: 5px;
-        width: 25vw;
-        height: 30px;
-        font-size: 12px;
-        border: solid 2px#87f234;
-        padding: 6px;
-        border-radius: 15px;
-        text-align: center;
-    }
-    .barra1 .iconos{
-        display: block;
-        margin-top: 15px;
-        width: 16%;
-        
-        
-    }
-
-    .barra1 .iconos i{
-        font-size: 25px;
-        margin-right: 5%;
-        margin-top: 28px;
-        color:#87f234;
-        
-
-    }
-    .barra1 .carrito i{
-        display: none;
-    }
-
-
-   .barra2 i{
-
-        font-size: 15px;
-        color:#87f234;
-    }
-
-    
-    .barra2 nav ul{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-       /*border: solid 1px red;*/
-        padding: 10px;
-        background:#000;
-    }
-    .barra2 nav ul li {
-        
-        list-style: none;
-    }
-    .barra2 nav ul li a{
-        text-decoration:none;
-        color: #FFF;
-    }
-    .iconos-barra2 i{
-        border: 1px solid wheat;
-        display: block;
-
-    }
-
-
-
-    .suscribirse{
-
-        width: 80%;
-        display: flex;
-        margin-left: 10%;
-        justify-content: space-between;
-        
-        border-radius: 5px;
+        .barra1 img{
+           display: block;
+           width: 85%;
+        }
+       .burger-menu{
+           display: none;
+       }
        
-    }
-    .suscribirse .enterate-novedades{
-        width: 40%;
-        
-        
-    }
-    .suscribirse .correo-suscripcion{
-        width: 60%;
-        
-        padding: 5px;
-    }
-    .suscribirse .enterate-novedades h3{
-        text-align: center;
-    }
-    .suscribirse .enterate-novedades p{
-        display: block;
-        font-size: 15px;
-        text-align: center;
-        
-    }
+   .barra1 .barra-busqueda{
+   
+       margin-left: 0;
+       margin-top: 56px;
+       margin: auto;
+   }
+   
+       .barra1 .barra-busqueda .input{
+           
+           margin-right: 5px;
+           width: 25vw;
+           height: 30px;
+           font-size: 12px;
+           border: solid 2px#87f234;
+           padding: 6px;
+           border-radius: 15px;
+           text-align: center;
+       }
+       .barra1 .iconos{
+           display: block;
+           margin-top: 15px;
+           width: 16%;
+           
+           
+       }
+   
+       .barra1 .iconos i{
+           font-size: 25px;
+           margin-right: 5%;
+           margin-top: 28px;
+           color:#87f234;
+           
+   
+       }
+       .barra1 .carrito i{
+           display: none;
+       }
+   
+   
+      .barra2 i{
+   
+           font-size: 15px;
+           color:#87f234;
+       }
+   
+       
+       .barra2 nav ul{
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-around;
+          /*border: solid 1px red;*/
+           padding: 10px;
+           background:#000;
+       }
+       .barra2 nav ul li {
+           
+           list-style: none;
+       }
+       .barra2 nav ul li a{
+           text-decoration:none;
+           color: #FFF;
+       }
+       .iconos-barra2 i{
+           border: 1px solid wheat;
+           display: block;
+   
+       }
+   
+   
+   
+       .suscribirse{
+   
+           width: 80%;
+           display: flex;
+           margin-left: 10%;
+           justify-content: space-between;
+           
+           border-radius: 5px;
+          
+       }
+       .suscribirse .enterate-novedades{
+           width: 40%;
+           
+           
+       }
+       .suscribirse .correo-suscripcion{
+           width: 60%;
+           
+           padding: 5px;
+       }
+       .suscribirse .enterate-novedades h3{
+           text-align: center;
+       }
+       .suscribirse .enterate-novedades p{
+           display: block;
+           font-size: 15px;
+           text-align: center;
+           
+       }
+   
+       .suscribirse .correo-suscripcion button{
+           transition: all 0.5s;
+           
+       
+       }
+       
+       .suscribirse .correo-suscripcion button:hover{
+           background-color:  rgb(167, 165, 165);
+           /* rgba(140,140,140,1) 100%);*/
+       
+       
+       }
+   
+   
+       .final{
+           justify-content: center;
+       }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+       /*------FOOTER---------*/
+       footer{
+           margin-top: 100px;
+       }
+       footer .seccion1 img {
+           display: inline-block;
+           margin-top: 21px;
+           width: 17vw;
+           height: 19vh;
+       }
+       footer .seccion1{
+           
+           display: flex;
+           justify-content: space-between;
+           margin-top: 10px;
+           
+           
+       }
+   
+   
+       footer .seccion2{
+           display: flex;
+           justify-content: space-between;
+           
+       }
+   }
 
-    .suscribirse .correo-suscripcion button{
-        transition: all 0.5s;
-        
-    
-    }
-    
-    .suscribirse .correo-suscripcion button:hover{
-        background-color:  rgb(167, 165, 165);
-        /* rgba(140,140,140,1) 100%);*/
-    
-    
-    }
-
-
-    .final{
-        justify-content: center;
-    }
 
 
 
@@ -468,32 +405,10 @@ footer .seccion2{
 
 
 
-    /*------FOOTER---------*/
-    footer{
-        margin-top: 100px;
-    }
-    footer .seccion1 img {
-        display: inline-block;
-        margin-top: 21px;
-        width: 17vw;
-        height: 19vh;
-    }
-    footer .seccion1{
-        
-        display: flex;
-        justify-content: space-between;
-        margin-top: 10px;
-        
-        
-    }
 
 
-    footer .seccion2{
-        display: flex;
-        justify-content: space-between;
-        
-    }
-}
+
+
 
 
 @media (min-width:1000px){
@@ -667,8 +582,3 @@ footer .seccion2{
        }
    }
    
-
-
-
-
-
