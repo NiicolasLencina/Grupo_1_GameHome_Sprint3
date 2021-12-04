@@ -11,6 +11,7 @@ form{
 
 form legend{
     font-size: 22px;
+    margin-bottom: 15px;
 }
 
 .contenido-form{
@@ -80,9 +81,12 @@ form .contenido-form label, input, textarea, select{
 .art-product{
     margin-right: 1%;
     flex-direction: column;
-    margin-bottom: 5px;
     width: 40%;
+    
 
+}
+form .contenido-form input{
+    margin-bottom: 12px;
 }
 .textarea{
     width: 85%;
@@ -102,6 +106,7 @@ form .art-product, .img{
 @media(min-width:1000px){
     .art-product{
         align-items: stretch;
+        
     }
     .art-product .img{
         margin-left:100px ;

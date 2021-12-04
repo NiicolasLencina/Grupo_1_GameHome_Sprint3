@@ -16,7 +16,7 @@ const productCartRutas= require('./src/routes/productCartRutas')
 const productDetailRutas = require('./src/routes/productDetailRutas')
 const loginRutas= require('./src/routes/loginRutas')
 const crearProductoRutas = require('./src/routes/createProductRutas')
-
+const editarProductoRutas = require('./src/routes/editProductRutas')
 
 
 
@@ -56,3 +56,10 @@ app.get('/registro', (req, res) => {
   // Ruta creacion de producto
 
 app.use('/crearProducto',crearProductoRutas)
+
+
+
+
+  // Ruta edicion de producto
+
+  app.use('/editarProducto',editarProductoRutas)
