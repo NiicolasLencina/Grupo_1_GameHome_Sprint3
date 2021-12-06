@@ -1,6 +1,6 @@
 let createController={
     index: (req,res)=>{
-        res.render('products/createProduct')
+        res.render('products/productAdd')
     }
 
 

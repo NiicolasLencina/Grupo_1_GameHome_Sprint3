@@ -15,7 +15,7 @@ const indexRutas= require('./src/routes/indexRutas')
 const productCartRutas= require('./src/routes/productCartRutas')
 const productDetailRutas = require('./src/routes/productDetailRutas')
 const loginRutas= require('./src/routes/loginRutas')
-const crearProductoRutas = require('./src/routes/createProductRutas')
+const crearProductoRutas = require('./src/routes/productAddRutas')
 const editarProductoRutas = require('./src/routes/editProductRutas')
 
 
