@@ -17,6 +17,7 @@ const productDetailRutas = require('./src/routes/productDetailRutas')
 const loginRutas= require('./src/routes/loginRutas')
 const crearProductoRutas = require('./src/routes/productAddRutas')
 const editarProductoRutas = require('./src/routes/editProductRutas')
+const registerRutas = require('./src/routes/registerRutas')
 
 
 
@@ -47,10 +48,7 @@ app.use('/detalleDeProducto',productDetailRutas)
 
 //Ruta register
 
-app.get('/registro', (req, res) => {
-    res.sendFile(__dirname + '/views/register.html')
-  })
-
+app.use('/registro', registerRutas)
 
 
   // Ruta creacion de producto

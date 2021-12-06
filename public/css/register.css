@@ -1,4 +1,3 @@
-
 /*--Contenedor de los registros--*/
 .container{
     width: 100%;
@@ -12,7 +11,7 @@
 
 /*--Contenedor del form--*/
 
-.login-container{
+.register-container{
     display: block;
     width: 450px;
     height: auto;
@@ -24,7 +23,7 @@
 /*--Seccion Registro --*/
 
 
-.register, .login{
+.register, .registerRedes{
     flex: 1;
 
 }
@@ -94,24 +93,24 @@
 
 /*--Registro redes--*/
 
-.login{
+.registerRedes{
 background-image: linear-gradient(to bottom right ,#faeb52,#87f234);
 padding: 40px;
 }
 
-.login h2{
+.registerRedes h2{
     color:#fff ;
     text-shadow: black;
     margin-bottom: 45px;
 }
 
-.login button i{
+.registerRedes button i{
     position: absolute;
     top: 12px;
     left: 12px;
 }
 
-.login button{
+.registerRedes button{
  width: 100%;
  margin: 15px 0px;
  padding: 10px;
@@ -120,7 +119,7 @@ cursor: pointer;
 position: relative;
 }
 
-.login .gg{
+.registerRedes .gg{
     background-color: rgb(216, 30, 30);
     border-style: none;
     color: #fff;
@@ -128,19 +127,19 @@ position: relative;
 
 
 
-.login .fb{
+.registerRedes .fb{
     background: #3b5999;
     border-style: none;
     color: #fff;
   }
    
-  .login .tw{
+  .registerRedes .tw{
     background: #55acef;
     border-style: none;
     color: #fff;
   }
    
-  .login .ig{
+  .registerRedes .ig{
     background:linear-gradient(to bottom right ,#911191,#a7338a);
     border-style: none;
     color: #fff;
@@ -157,7 +156,7 @@ position: relative;
  
     /*--REGISTRO--*/
 
-   .login-container{
+   .register-container{
     display: flex;
     width: 650px;
     height: auto;
